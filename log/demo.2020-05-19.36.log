@@ -1,0 +1,11 @@
+2020-05-19 17:42:47,173 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:49:22,189 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 12896 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 17:49:22,200 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 17:49:22,202 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 17:49:27,851 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 7.385 seconds (JVM running for 9.651)
+2020-05-19 17:49:35,931 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 
+2020-05-19 17:49:35,954 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:49:35,979 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:49:35,983 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:49:35,984 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:49:35,985 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

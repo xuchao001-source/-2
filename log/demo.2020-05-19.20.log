@@ -1,0 +1,8 @@
+2020-05-19 17:04:53,557 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:07:12,965 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? AND ORGName LIKE CONCAT('%',?,'%') AND CARDREGUSER LIKE CONCAT('%',?,'%') limit ?,? 
+2020-05-19 17:07:12,967 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String), 电(String), 口(String), 3(Integer), 3(Integer)
+2020-05-19 17:07:12,969 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-05-19 17:07:12,971 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? AND ORGName LIKE CONCAT('%',?,'%') AND CARDREGUSER LIKE CONCAT('%',?,'%') 
+2020-05-19 17:07:12,972 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String), 电(String), 口(String)
+2020-05-19 17:07:12,976 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:07:15,777 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? limit ?,? 

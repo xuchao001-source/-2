@@ -1,0 +1,10 @@
+2020-05-19 17:21:03,746 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 7.785 seconds (JVM running for 10.092)
+2020-05-19 17:21:15,986 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 
+2020-05-19 17:21:16,011 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:21:16,040 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:21:16,045 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:21:16,046 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:21:16,047 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:21:23,980 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 or ORGName LIKE CONCAT('%',?,'%') limit ?,? 
+2020-05-19 17:21:23,983 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 电力(String), 3(Integer), 3(Integer)
+2020-05-19 17:21:23,986 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0

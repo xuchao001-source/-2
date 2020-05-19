@@ -1,0 +1,14 @@
+2020-05-19 17:52:20,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String), 3(Integer), 3(Integer)
+2020-05-19 17:52:21,010 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-05-19 17:52:21,012 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDREGUSER LIKE CONCAT('%',?,'%') 
+2020-05-19 17:52:21,013 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String)
+2020-05-19 17:52:21,014 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:52:21,170 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 AND CARDREGUSER LIKE CONCAT('%',?,'%') limit ?,? 
+2020-05-19 17:52:21,171 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String), 3(Integer), 3(Integer)
+2020-05-19 17:52:21,176 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-05-19 17:52:21,178 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDREGUSER LIKE CONCAT('%',?,'%') 
+2020-05-19 17:52:21,179 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String)
+2020-05-19 17:52:21,181 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:52:21,372 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 AND CARDREGUSER LIKE CONCAT('%',?,'%') limit ?,? 
+2020-05-19 17:52:21,373 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String), 3(Integer), 3(Integer)
+2020-05-19 17:52:21,375 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0

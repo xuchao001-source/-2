@@ -1,0 +1,8 @@
+2020-05-19 16:34:58,532 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 7.456 seconds (JVM running for 9.628)
+2020-05-19 16:36:19,914 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 18904 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:36:19,929 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:36:19,930 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 16:36:26,632 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 9.446 seconds (JVM running for 11.971)
+2020-05-19 16:36:38,312 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 19104 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:36:38,322 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:36:38,323 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

@@ -1,0 +1,11 @@
+2020-05-19 17:07:15,779 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String), 3(Integer), 3(Integer)
+2020-05-19 17:07:15,788 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-05-19 17:07:15,790 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? 
+2020-05-19 17:07:15,791 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String)
+2020-05-19 17:07:15,792 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:08:57,768 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 
+2020-05-19 17:08:57,769 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:08:57,772 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:08:57,778 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:08:57,779 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:08:57,781 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

@@ -1,0 +1,8 @@
+2020-05-19 17:52:21,377 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDREGUSER LIKE CONCAT('%',?,'%') 
+2020-05-19 17:52:21,384 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 口水娃(String)
+2020-05-19 17:52:21,386 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:52:53,095 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 13760 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 17:52:53,105 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 17:52:53,106 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 17:53:04,624 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 13.679 seconds (JVM running for 17.363)
+2020-05-19 17:53:50,088 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 

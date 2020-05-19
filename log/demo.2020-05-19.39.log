@@ -1,0 +1,12 @@
+2020-05-19 17:50:55,204 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 
+2020-05-19 17:50:55,212 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:50:55,216 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:50:55,218 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:50:55,219 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:50:55,221 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:51:22,111 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 limit ?,? 
+2020-05-19 17:51:22,113 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:51:22,118 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:51:22,120 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:51:22,121 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:51:22,123 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

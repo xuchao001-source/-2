@@ -1,0 +1,13 @@
+2020-05-19 14:32:09,858 INFO (StartupInfoLogger.java:61)- Started PowergridWebApplication in 15.525 seconds (JVM running for 20.866)
+2020-05-19 16:27:42,935 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 6036 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:27:42,944 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:27:42,945 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 16:29:09,008 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 11084 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:29:09,024 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:29:09,025 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 16:29:21,323 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 13456 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:29:21,339 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:29:21,340 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-05-19 16:30:25,790 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 19760 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 16:30:25,798 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 16:30:25,799 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

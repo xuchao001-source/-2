@@ -1,0 +1,14 @@
+2020-05-19 17:19:17,144 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 3(Integer)
+2020-05-19 17:19:17,157 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-05-19 17:19:17,159 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 
+2020-05-19 17:19:17,160 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-05-19 17:19:17,162 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:20:10,733 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? AND ORGName LIKE CONCAT('%',?,'%') AND CARDREGUSER LIKE CONCAT('%',?,'%') limit ?,? 
+2020-05-19 17:20:10,735 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String), 电力(String), 口(String), 3(Integer), 3(Integer)
+2020-05-19 17:20:10,739 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-05-19 17:20:10,741 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM tcardassert WHERE 1=1 AND CARDSTATECHANGE=? AND ORGName LIKE CONCAT('%',?,'%') AND CARDREGUSER LIKE CONCAT('%',?,'%') 
+2020-05-19 17:20:10,742 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 登记(String), 电力(String), 口(String)
+2020-05-19 17:20:10,744 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-05-19 17:20:57,520 INFO (StartupInfoLogger.java:55)- Starting PowergridWebApplication on 徐超的计算机 with PID 5368 (C:\Users\XuChao\Desktop\powergrid\powergrid-web\target\classes started by XuChao in C:\Users\XuChao\Desktop\powergrid)
+2020-05-19 17:20:57,528 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-19 17:20:57,529 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
