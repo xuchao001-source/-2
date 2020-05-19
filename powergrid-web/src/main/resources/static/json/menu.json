@@ -1,0 +1,249 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"data": [{
+			"id": 1,
+			"name": "统计报表管理",
+			"icon": "&#xe6b8;",
+			"url": "",
+			"children": [{
+				"id": 2,
+				"name": "卡资产统计",
+				"icon": "",
+				"url": "TCardinfo"
+			}, {
+				"id": 3,
+				"name": "手持终端统计",
+				"icon": "",
+				"url": "TTerinfoStation.html"
+			}, {
+				"id": 4,
+				"name": "任务按模板统计",
+				"icon": "&#xe70b;",
+				"url": "./pages/xc/Tasktemplate.html"
+			},{
+				"id": 5,
+				"name": "任务按人员统计",
+				"icon": "&#xe70b;",
+				"url": "./pages/xc/Personnel.html"
+			},{
+				"id": 7,
+				"name": "任务详细统计",
+				"icon": "&#xe70b;",
+				"url": "./pages/xc/TTask.html"
+			}
+			]
+		},
+		{
+			"id": 8,
+			"name": "日志管理",
+			"icon": "&#xe705;",
+			"url": "",
+			"children": [{
+				"id": 9,
+				"name": "掌机资产变更记录",
+				"icon": "",
+				"url": "./pages/article/list.html"
+			}, {
+				"id": 10,
+				"name": "卡片变更记录",
+				"icon": "",
+				"url": "./pages/article/category.html"
+			}, {
+				"id": 11,
+				"name": "掌机登录记录",
+				"icon": "",
+				"url": "./pages/article/category.html"
+			}, {
+				"id": 12,
+				"name": "用户重要操作记录",
+				"icon": "",
+				"url": "./pages/article/category.html"
+			}, {
+				"id": 13,
+				"name": "用户足迹记录",
+				"icon": "",
+				"url": "./pages/article/category.html"
+			}]
+		},
+		{
+			"id": 14,
+			"name": "设备管理",
+			"icon": "&#xe723;",
+			"url": "",
+			"children": [{
+				"id": 15,
+				"name": "卡片资产管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 16,
+				"name": "掌机资产管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 17,
+				"name": "安全单元升级包管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 18,
+				"name": "安全单元信息管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 19,
+				"name": "掌机软件升级管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 20,
+				"name": "掌机批次管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 21,
+				"name": "类型管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			},{
+				"id": 22,
+				"name": "厂商管理",
+				"icon": "",
+				"url": "./pages/order/list.html"
+			}]
+		},
+		{
+			"id": 23,
+			"name": "单位人员管理",
+			"icon": "&#xe726;",
+			"url": "",
+			"children": [{
+				"id": 24,
+				"name": "单位管理",
+				"icon": "",
+				"url": "./pages/admin/list.html"
+			},
+			{
+				"id": 25,
+				"name": "操作员管理",
+				"icon": "",
+				"url": "./pages/admin/role.html"
+			},
+			{
+				"id": 26,
+				"name": "管理员管理",
+				"icon": "",
+				"url": "./pages/admin/cate.html"
+			},
+			{
+				"id": 27,
+				"name": "在线掌机管理",
+				"icon": "",
+				"url": "./pages/admin/rule.html"
+			},
+			{
+				"id": 28,
+				"name": "在线会话管理",
+				"icon": "",
+				"url": "./pages/admin/rule.html"
+			},
+			{
+				"id": 29,
+				"name": "黑名单管理",
+				"icon": "",
+				"url": "./pages/admin/rule.html"
+			},
+			{
+				"id": 30,
+				"name": "白名单管理",
+				"icon": "",
+				"url": "./pages/admin/rule.html"
+			},
+			{
+				"id": 31,
+				"name": "单位初始化",
+				"icon": "",
+				"url": "./pages/admin/rule.html"
+			}]
+		},
+		{
+			"id": 32,
+			"name": "任务管理",
+			"icon": "&#xe6ce;",
+			"url": "",
+			"children": [{
+				"id": 33,
+				"name": "模板类型查看",
+				"icon": "",
+				"url": "./pages/echarts/echarts1.html"
+			},
+			{
+				"id": 34,
+				"name": "模板管理",
+				"icon": "",
+				"url": "./pages/echarts/echarts2.html"
+			},
+			{
+				"id": 35,
+				"name": "本地任务管理",
+				"icon": "",
+				"url": "./pages/echarts/echarts3.html"
+			},
+			{
+				"id": 36,
+				"name": "群组管理",
+				"icon": "",
+				"url": "./pages/echarts/echarts4.html"
+			},
+			{
+				"id": 37,
+				"name": "快速生成任务",
+				"icon": "",
+				"url": "./pages/echarts/echarts5.html"
+			},
+			{
+				"id": 38,
+				"name": "操作员电表管理及接口各类任务管理",
+				"icon": "",
+				"url": "./pages/echarts/echarts6.html"
+			}]
+		},
+		{
+			"id": 39,
+			"name": "角色管理",
+			"icon": "&#xe726;",
+			"url": "./pages/echarts/echarts1.html"
+		},
+		{
+			"id": 40,
+			"name": "部署管理",
+			"icon": "&#xe6ce;",
+			"url": "",
+			"children": [{
+				"id": 41,
+				"name": "GPRS参数管理",
+				"icon": "",
+				"url": "./pages/xc/Gprs.html"
+			},
+			{
+				"id": 42,
+				"name": "645数据ID管理",
+				"icon": "",
+				"url": "./pages/xc/645id.html"
+			},
+			{
+				"id": 43,
+				"name": "系统参数配置管理",
+				"icon": "",
+				"url": "./pages/xc/systemparameter.html"
+			},
+			{
+				"id": 44,
+				"name": "足迹链接管理",
+				"icon": "",
+				"url": "./pages/xc/Footprintslink.html"
+			}]
+		}
+	]
+}

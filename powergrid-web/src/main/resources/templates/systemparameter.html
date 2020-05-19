@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>国家电网管理系统</title>
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link rel="stylesheet" href="../../static/css/font.css" />
+		<link rel="stylesheet" href="../../static/css/weadmin.css" />
+		<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+		<!--[if lt IE 9]>
+		  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+		  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<style type="text/css">
+		td {
+			height: 0.175rem;
+		}
+	</style>
+	<body>
+		<div class="weadmin-nav">
+			<span class="layui-breadcrumb">
+				<a href="javascript:;">首页</a> <a href="javascript:;">系统参数配置</a>
+				<a href="javascript:;"> <cite></cite></a>
+			</span>
+			<a class="layui-btn layui-btn-sm" style="margin-top:3px;float:right" href="javascript:location.replace(location.href);"
+			 title="刷新">
+				<i class="layui-icon layui-icon-refresh"></i>
+				<!-- <i class="layui-icon" style="line-height:30px">&#x1002;</i> -->
+			</a>
+		</div>
+
+
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 0.625rem;">
+			<span class="layui-badge-dot layui-bg-blue"></span>&nbsp;&nbsp;设置加密机IP
+		</blockquote>
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 2.625rem;">
+			<div class="layui-form-item">
+				<div class="layui-inline" style="margin-left: 250px;">
+					<label class="layui-form-label">
+						<span class="layui-badge-dot layui-bg-cyan"></span>&nbsp;&nbsp;密机IP:</label>
+					<div class="layui-input-inline">
+						<input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+					</div>
+					<label class="layui-form-label"><span class="layui-badge-dot layui-bg-cyan"></span>&nbsp;&nbsp;密机端口:</label>
+					<div class="layui-input-inline">
+						<input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+			</div>
+		</blockquote>
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 1.625rem;">
+			<button type="button" class="layui-btn layui-btn-normal">保存</button>
+		</blockquote>
+		<br />
+		<i class="layui-icon set-fill" style="margin-left: 7.625rem;">&#xe614;&nbsp;&nbsp;数据初始化</i>
+		<br />
+		<br />
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 5.625rem;">
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">配置信息版本更新</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">845数据id目录更新</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">02和04级密码更新</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">vpn参数更新</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">13表密钥下装管理</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">多协议抄表配置变更</button>
+			<br />
+			<br />
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;margin-left: 11.5rem;">模板初始化</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">安全单元列表初始化</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">重新计算未失效的</button>
+			<button type="button" class="layui-btn layui-btn-normal" style="background-color: #009688;">初始操作员卡资产</button>
+		</blockquote>
+		<br />
+		<i class="layui-icon set-fill" style="margin-left: 7.625rem;">&#xe614;&nbsp;&nbsp;系统设置</i>
+		<br />
+		<br />
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 30.625rem;">
+			<div class="layui-form">
+				<table class="layui-table">
+					<colgroup>
+						<col width="160">
+						<col width="150">
+						<col width="200">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>是否开启资产检测:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open" value="">
+									</div>
+								</div>
+							</td>
+							<td>调试模式:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open1" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open1" value="">
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>多模板选择:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open2" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open2" value="">
+									</div>
+								</div>
+							</td>
+							<td>任务状态重置功能:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open3" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open3" value="">
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>操作员转移:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open4" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open4" value="">
+									</div>
+								</div>
+							</td>
+							<td>是否支持掌机请求任务:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">支持:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open5" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">不支持:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open5" value="">
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>白名单:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open6" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open6" value="">
+									</div>
+								</div>
+							</td>
+							<td>检查范围:(白名单开启时有效:)</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">省级管理员和admin:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open7" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">全部管理员:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open7" value="">
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>同级管理员操作:</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">开启:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open8" value="">
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-form-item" style="margin-top: 20px;">
+									<label class="layui-form-label">关闭:</label>
+									<div class="layui-input-block">
+										<input type="radio" name="open8" value="">
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</blockquote>
+		<br />
+		<i class="layui-icon set-fill" style="margin-left: 7.625rem;">&#xe614;&nbsp;&nbsp;修改权限配置信息</i>
+		<br />
+		<br />
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 1.625rem;">
+			<div class="layui-form">
+				<div class="layui-form-item" pane="">
+					<div class="layui-input-block">
+						<input type="checkbox" name="like1[1]" lay-skin="primary" title="开关控制">
+						<input type="checkbox" name="like1[2]" lay-skin="primary" title="二类参数">
+						<input type="checkbox" name="like1[3]" lay-skin="primary" title="充值权限">
+						<input type="checkbox" name="like1[4]" lay-skin="primary" title="一类参数">
+						<input type="checkbox" name="like1[5]" lay-skin="primary" title="第一套费率">
+						<input type="checkbox" name="like1[6]" lay-skin="primary" title="第二套费率">
+						<input type="checkbox" name="like1[7]" lay-skin="primary" title="红外权限">
+					</div>
+				</div>
+			</div>
+		</blockquote>
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 1.625rem;">
+			<button type="button" class="layui-btn layui-btn-normal" style="margin-left: 28.25rem;">确定</button>
+		</blockquote>
+		<br />
+		<i class="layui-icon set-fill" style="margin-left: 7.625rem;">&#xe614;&nbsp;&nbsp;用户口令规范配置</i>
+		<br />
+		<br />
+		<blockquote class="layui-elem-quote layui-quote-nm" style="background-color: rgb(255,249,249);width: 65rem;margin: 0 auto; height: 8.625rem;">
+			<div class="layui-form">
+				<table class="layui-table">
+					<colgroup>
+						<col width="350">
+						<col width="250">
+						<col width="250">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>
+								<div class="layui-inline">
+									<label class="layui-form-label">长度:</label>
+									<div class="layui-input-inline" style="width: 10rem;">
+										<select name="modules" lay-verify="required" lay-search="">
+											<option value="">6到10个长度</option>
+											<option value="">7到11个长度</option>
+										</select>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-inline">
+									<label class="layui-form-label">复杂度:</label>
+									<div class="layui-input-inline" style="width: 10rem;">
+										<select name="modules" lay-verify="required" lay-search="">
+											<option value="">数字或字母组成</option>
+											<option value="">其他</option>
+										</select>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-inline">
+									<label class="layui-form-label">有效期:</label>
+									<div class="layui-input-inline" style="width: 10rem;">
+										<select name="modules" lay-verify="required" lay-search="">
+											<option value="">2个月</option>
+											<option value="">3个月</option>
+										</select>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="layui-inline">
+									<label class="layui-form-label">登录失败次数设置:</label>
+									<div class="layui-input-inline" style="width: 10rem;">
+										<select name="modules" lay-verify="required" lay-search="">
+											<option value="">5次</option>
+											<option value="">6次</option>
+										</select>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="layui-inline">
+									<label class="layui-form-label">锁定时间:</label>
+									<div class="layui-input-inline" style="width: 10rem;">
+										<select name="modules" lay-verify="required" lay-search="">
+											<option value="">20分钟</option>
+											<option value="">30分钟</option>
+										</select>
+									</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</blockquote>
+		<!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>-->
+		<script src="../../lib/layui/layui.js" charset="utf-8"></script>
+		<script src="../../static/js/systemparameter.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csdj.mapper.TCardassetMapper">
+      <select id="getTCardasset" resultType="TCardasset">
+          SELECT * FROM  tcardassert WHERE 1=1
+          <if test="CARDSTATECHANGE!=null and CARDSTATECHANGE!=''">
+              AND CARDSTATECHANGE=#{CARDSTATECHANGE}
+          </if>
+          <if test="ORGName!=null and ORGName!=''">
+              AND ORGName LIKE CONCAT('%',#{ORGName},'%')
+          </if>
+          <if test="CARDREGUSER!=null and CARDREGUSER!=''">
+              AND CARDREGUSER  LIKE CONCAT('%',#{CARDREGUSER},'%')
+          </if>
+          limit #{pageNo},#{pageSize}
+      </select>
+    <select id="getTCardassetcount" resultType="int">
+        SELECT count(*) FROM  tcardassert WHERE 1=1
+        <if test="CARDSTATECHANGE!=null and CARDSTATECHANGE!=''">
+            AND CARDSTATECHANGE=#{CARDSTATECHANGE}
+        </if>
+        <if test="ORGName!=null and ORGName!=''">
+            AND ORGName LIKE CONCAT('%',#{ORGName},'%')
+        </if>
+        <if test="CARDREGUSER!=null and CARDREGUSER!=''">
+            AND CARDREGUSER  LIKE CONCAT('%',#{CARDREGUSER},'%')
+        </if>
+    </select>
+</mapper>
