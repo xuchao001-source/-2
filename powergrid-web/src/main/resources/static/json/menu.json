@@ -182,19 +182,19 @@
 				"id": 34,
 				"name": "模板管理",
 				"icon": "",
-				"url": "./pages/echarts/echarts2.html"
+				"url": "template"
 			},
 			{
 				"id": 35,
 				"name": "本地任务管理",
 				"icon": "",
-				"url": "./pages/echarts/echarts3.html"
+				"url": "thislocality"
 			},
 			{
 				"id": 36,
 				"name": "群组管理",
 				"icon": "",
-				"url": "./pages/echarts/echarts4.html"
+				"url": "cluster"
 			},
 			{
 				"id": 37,
@@ -213,7 +213,7 @@
 			"id": 39,
 			"name": "角色管理",
 			"icon": "&#xe726;",
-			"url": "./pages/echarts/echarts1.html"
+			"url": "role"
 		},
 		{
 			"id": 40,

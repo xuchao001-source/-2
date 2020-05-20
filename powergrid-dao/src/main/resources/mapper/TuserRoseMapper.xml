@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.csdj.xzhdao.TuserRoseMapper">
+    <select id="seletuse" resultType="TUserRose">
+        SELECT * FROM `tuserrose` where 1=1 limit #{index},#{pagesize}
+    </select>
+    <select id="seletuses" resultType="int">
+        SELECT count(*) FROM `tuserrose`
+    </select>
+</mapper>
