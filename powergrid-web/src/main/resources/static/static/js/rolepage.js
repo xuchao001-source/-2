@@ -1,6 +1,7 @@
-	layui.use(['table','layer'],function(){
+	layui.use(['table','layer','jquery'],function(){
 		var table=layui.table;
 		var layer=layui.layer;
+		var jquery=layer.jquery;
 		table.render({
 		    elem: '#test'
 		    ,url:'seletuse'
