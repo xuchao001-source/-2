@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../../static/css/font.css">
+<link rel="stylesheet" href="../../static/css/weadmin.css">
+<link rel="stylesheet" href="../static/lib/layui/css/layui.css">
+<body>
+<div><span style="font-size: 1.875rem; margin-left: 3.125rem;"><b>新增角色</b></s
+    pan></div>
+<br>
+<br>
+<div class="weadmin-body">
+    <div class="layui-row">
+        <form class="layui-form layui-col-md12 we-search">
+
+            <div style="margin-left: 5.795rem;">
+                <span><b>角色名：</b></span>
+                <div class="layui-inline" >
+                    <input class="layui-input" placeholder="角色名" name="start" id="start">
+                </div>
+            </div><br>
+            <div style="margin-left: 6.75rem;">
+                <span><b>类型：</b></span>
+                <div class="layui-input-inline" >
+                    <select name="cateid">
+                        <option>请选择</option>
+                        <option>管理员角色</option>
+                        <option>操作员角色</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div style="margin-left: 6.75rem;">
+                <span><b>编号：</b></span>
+                <div class="layui-input-inline" >
+                    <input class="layui-input" placeholder="编号" name="start" id="st">
+                </div>
+            </div>
+            <br>
+            <div style="margin-left: 5rem;">
+                <span><b>操作权限：</b></span>
+                <div class="layui-inline" >
+                    <input type="checkbox" name="like[write]" title="设参" value="设参">
+                    <input type="checkbox" name="like[read]" title="抄表" value="抄表" checked>
+                    <input type="checkbox" name="like[dai]" title="充值" value="充值">
+                    <input type="checkbox" name="like[write]" title="开关控制" value="开关控制">
+                    <input type="checkbox" name="like[read]" title="密钥下装" value="密钥下装">
+                    <input type="checkbox" name="like[dai]" title="密钥恢复"value="密钥恢复">
+                    <input type="checkbox" name="like[write]" title="设时"value="设时"><br><br>
+                    <input type="checkbox" name="like[read]" title="GPS定位" value="GPS定位">
+                    <input type="checkbox" name="like[dai]" title="终端任务" value="终端任务">
+                    <input type="checkbox" name="like[write]" title="权限分配" value="权限分配">
+                    <input type="checkbox" name="like[read]" title="人员管理" value="人员管理">
+                    <input type="checkbox" name="like[dai]" title="审计查看" value="审计查看">
+                    <input type="checkbox" name="like[write]" title="统计报表" value="统计报表"><br><br>
+                    <input type="checkbox" name="like[write]" title="设备管理" value="设备管理">
+                </div>
+            </div><br>
+            <div style="margin-left: 6.75rem;">
+                <span><b>状态：</b></span>
+                <div class="layui-input-inline" >
+                    <input type="radio" name="sex" value="1" title="已启用" checked="">
+                    <input type="radio" name="sex" value="0" title="未启用">
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div style="margin-left: 43.75rem;">
+                <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+</body>
+<script src="lib/layui/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function(){
+        var form = layui.form
+            ,layer = layui.layer
+            ,layedit = layui.layedit
+            ,laydate = layui.laydate;
+
+        //日期
+        laydate.render({
+            elem: '#date'
+        });
+        laydate.render({
+            elem: '#date1'
+        });
+
+
+    });
+</script>
+</html>
