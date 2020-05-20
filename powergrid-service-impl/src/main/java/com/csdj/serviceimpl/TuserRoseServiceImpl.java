@@ -1,4 +1,4 @@
-package com.csdj.serviceImpl.xzh;
+package com.csdj.serviceimpl;
 
 import com.csdj.pojo.TUserRose;
 import com.csdj.service.TuserRoseService;
