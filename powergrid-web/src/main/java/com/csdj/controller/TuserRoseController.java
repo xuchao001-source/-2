@@ -1,10 +1,9 @@
-package com.csdj.controller.xzh;
+package com.csdj.controller;
 
 import com.csdj.pojo.TUserRose;
-import com.csdj.service.xzh.TuserRoseService;
+import com.csdj.service.TuserRoseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 

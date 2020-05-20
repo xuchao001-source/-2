@@ -1,8 +1,8 @@
 package com.csdj.serviceImpl.xzh;
 
 import com.csdj.pojo.TUserRose;
-import com.csdj.service.xzh.TuserRoseService;
-import com.csdj.xzhdao.TuserRoseMapper;
+import com.csdj.service.TuserRoseService;
+import com.csdj.mapper.TuserRoseMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
